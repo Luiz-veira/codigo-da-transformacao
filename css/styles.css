@@ -1,0 +1,29 @@
+body{
+    /* background-color: aqua; */
+    background-image: linear-gradient(to top, aqua, aquamarine, aqua);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    margin: 1em;
+}
+
+a:hover{
+    color: red;
+    transition: 1s;
+    font-size: 24;
+}
