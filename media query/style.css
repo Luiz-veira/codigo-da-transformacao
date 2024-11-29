@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: aqua; */
+    background-image: linear-gradient(to top, aqua, aquamarine, aqua);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+}
+
+header, nav, main, footer{
+    width: 80vw;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    margin: 1em;
+}
+
+a:hover{
+    color: red;
+    transition: 1s;
+    font-size: 24;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+@media  screen and (max-width: 992px) {
+    nav>a{
+        display: block;
+    }
+
+    main{
+        display: block;
+    }
+
+    section{
+        margin-bottom: 1em;
+    }
+}
